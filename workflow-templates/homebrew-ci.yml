@@ -1,0 +1,17 @@
+name: Homebrew CI
+on:
+  push:
+    branches: $default-branch
+    paths: '**.rb'
+  pull_request:
+    paths:
+    - Formula/*.rb
+    - Casks/*.rb
+    - cmd/*rb
+    - lib/**.rb
+  schedule:
+  - cron: 0 5 * * * # 5AM daily
+
+jobs:
+  CI:
+    uses: danielbayley/homebrew-pipeline/.github/workflows/homebrew-ci.yml@$default-branch

@@ -1,0 +1,11 @@
+{
+  "name": "Homebrew Pipeline",
+  "description": "Simple CI pipeline for your Homebrew tap.",
+  "iconName": "homebrew-ci",
+  "categories": [
+    "Ruby"
+  ],
+  "filePatterns": [
+    "([Ff]ormula|[Cc]asks|cmd)/.+\\.rb"
+  ]
+}
