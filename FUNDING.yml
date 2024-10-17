@@ -1,5 +1,10 @@
-github: danielbayley
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository#about-funding-files
+github:          danielbayley # https://github.com/sponsors/danielbayley/dashboard
+polar:           danielbayley # https://polar.sh/danielbayley/donate
+open_collective: danielbayley # https://opencollective.com/danielbayley
+thanks_dev:      danielbayley # https://thanks.dev/d/gh/danielbayley
+issuehunt:       danielbayley # https://oss.issuehunt.io/u/danielbayley
 custom:
-- 'https://paypal.me/danieljbayley'
+- "https://paypal.me/danieljbayley"
 - BTC 37rdZq4muDVNJh6jCr4XDXf8X2EFKjL3QQ
 - ETH 0x6248B4349e633969376dA20F9C8577530062BE64
